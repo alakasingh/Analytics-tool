@@ -37,8 +37,7 @@ if "df" in st.session_state:
         selected_city = st.sidebar.multiselect("Select City", df["City"].unique(), default=df["City"].unique())
         filtered_df = df[df["City"].isin(selected_city)]
 
-        if st.checkbox("Show Raw Data"):
-            st.write(filtered_df)
+       
 
         if 'DayOfWeek' in df.columns and 'Total' in df.columns:
             st.subheader("🛍️ Sales by Day of the Week")
