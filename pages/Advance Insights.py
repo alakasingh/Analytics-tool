@@ -3,6 +3,10 @@ import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
+from utils import configure_page
+
+
+configure_page()
 
 st.title("📊 Data Insights")
 

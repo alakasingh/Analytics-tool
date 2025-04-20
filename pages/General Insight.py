@@ -2,9 +2,13 @@ import pandas as pd
 import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
-
-
+from utils import configure_page
 import plotly.express as px
+
+
+configure_page()
+
+
 
 st.title("📊 General Insights")
 

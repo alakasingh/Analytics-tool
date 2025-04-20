@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from utils import configure_page
+
+
+configure_page()
 
 st.title("📊 Data Insights")
 

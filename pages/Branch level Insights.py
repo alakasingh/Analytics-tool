@@ -1,5 +1,9 @@
 import streamlit as st
 import pandas as pd
+from utils import configure_page
+
+
+configure_page()
 
 st.title("📊 Data Insights")
 
