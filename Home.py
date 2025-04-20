@@ -6,7 +6,17 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
+
+
+
 def main():
+    st.set_page_config(
+    page_title="Home",
+    page_icon="🏠",
+    layout="wide",
+    initial_sidebar_state="expanded"
+   )
+
     show_header()
     st.write("Choose a page from the sidebar to explore more features.")
     
