@@ -5,6 +5,8 @@ st.title("📊 Data Insights")
 
 # ✅ Check if data exists in session_state
 if "df" in st.session_state:
+    
+    
     df = st.session_state.df
 
     st.subheader("👀 First 5 Rows of the Uploaded Data")
